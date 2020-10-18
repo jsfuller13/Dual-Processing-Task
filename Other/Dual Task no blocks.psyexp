@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="3.1.5">
+  <Settings>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '1', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Monitor" updates="None" val="Built_In_Display" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="True" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="latest" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1440, 900]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="Dual Task no blocks" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <SoundComponent name="sound_1">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="name" updates="None" val="sound_1" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="sound" updates="set every repeat" val="$SoundFile" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="volume" updates="set every repeat" val="1" valType="code"/>
+      </SoundComponent>
+      <MicrophoneComponent name="mic_1">
+        <Param name="channel" updates="None" val="0" valType="code"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="name" updates="None" val="mic_1" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="stereo" updates="None" val="True" valType="bool"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+      </MicrophoneComponent>
+      <TextComponent name="prompt">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="prompt" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Respond as quickly as possible." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instr">
+      <TextComponent name="instructions_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="instructions_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$instr_text" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="next_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="next_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$cont_text" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="block_2">
+      <TextComponent name="B2_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="B2_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Respond as quickly as possible." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="thanks">
+      <TextComponent name="thx_txt">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="thx_txt" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Good work!&amp;#10;&amp;#10;You have completed this task.&amp;#10;&amp;#10;Press SPACE to exit." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="thx_key">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="thx_key" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="instructions">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('index', 0), ('instr_text', 'Good work!\n\nNow you will complete a few more. \n\nRespond as quickly as possible.'), ('cont_text', 'Press SPACE to begin the first block.')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="DPT_instr1.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="instructions" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="instr"/>
+    <LoopTerminator name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="B1_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('index', 0), ('Stim', 'Lamp'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Lamp.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 1), ('Stim', 'Desk'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Desk.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 2), ('Stim', 'Chair'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Chair.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 3), ('Stim', 'Nightstand'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Nightstand.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 4), ('Stim', 'Coffee Table'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Coffee Table.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 5), ('Stim', 'Dresser'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Dresser.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 6), ('Stim', 'Bookshelf'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Bookshelf.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 7), ('Stim', 'Cabinet'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Cabinet.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 8), ('Stim', 'Bed'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Bed.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 9), ('Stim', 'Ottoman'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Ottoman.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 10), ('Stim', 'Radiator'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Radiator.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 11), ('Stim', 'Mirror'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Mirror.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 12), ('Stim', 'Car'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Car.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 13), ('Stim', 'Bus'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Bus.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 14), ('Stim', 'Boat'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Boat.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 15), ('Stim', 'Airplane'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Airplane.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 16), ('Stim', 'Sailboat'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Sailboat.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 17), ('Stim', 'Bicycle'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Bicycle.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 18), ('Stim', 'Skateboard'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Skateboard.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 19), ('Stim', 'Rollerblades'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Rollerblades.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 20), ('Stim', 'Raft'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Raft.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 21), ('Stim', 'Hang Glider'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Hangglider.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 22), ('Stim', 'Hammer'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Hammer.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 23), ('Stim', 'Chisel'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Chisel.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 24), ('Stim', 'Wrench'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Wrench.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 25), ('Stim', 'Ruler'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Ruler.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 26), ('Stim', 'Apple'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Apple.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 27), ('Stim', 'Strawberry'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Strawberry.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 28), ('Stim', 'Banana'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Banana.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 29), ('Stim', 'Orange'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Orange.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 30), ('Stim', 'Pineapple'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Pineapple.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 31), ('Stim', 'Mango'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Mango.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 32), ('Stim', 'Cucumber'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Cucumber.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 33), ('Stim', 'Papaya'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Papaya.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 34), ('Stim', 'Starfruit'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Starfruit.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 35), ('Stim', 'Tangerine'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Tangerine.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 36), ('Stim', 'Spinach'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Spinach.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 37), ('Stim', 'Cabbage'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Cabbage.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 38), ('Stim', 'Carrot'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Carrot.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 39), ('Stim', 'Beet'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Beet.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="DPT_B1.csv" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="B1_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="B1_trials"/>
+    <LoopInitiator loopType="TrialHandler" name="B2_instr">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('index', 0), ('instr_text', 'Good work!\n\nFor this part you will need several sheets of boxes and a pencil. \n\nCollect these and adjust your space so that you can write.\n\n'), ('cont_text', 'Press SPACE for more instructions.')]), OrderedDict([('index', 1), ('instr_text', 'During this block you will mark the boxes on the page with an X.\n\nStart at the top left corner of the page and work across.\n\nDO NOT skip boxes.'), ('cont_text', 'Press SPACE for more instructions.')]), OrderedDict([('index', 2), ('instr_text', 'Work as quickly as you can.'), ('cont_text', 'Press SPACE for more instructions.')]), OrderedDict([('index', 3), ('instr_text', 'Mark the first two rows for practice.'), ('cont_text', 'Press SPACE for more instructions.')]), OrderedDict([('index', 4), ('instr_text', 'Good work.\n\nNow you will begin the full task.\n\nMark as many boxes as you can.\n\nIf you finish a page, continue onto the next.\n'), ('cont_text', 'Press SPACE to begin the second block.')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="DPT_instr2.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="B2_instr" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="instr"/>
+    <LoopTerminator name="B2_instr"/>
+    <Routine name="block_2"/>
+    <LoopInitiator loopType="TrialHandler" name="B3_instr">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('index', 0), ('instr_text', 'Good work!\n\nDuring this final part, you will complete both tasks at once.'), ('cont_text', 'Press SPACE for more instructions.')]), OrderedDict([('index', 1), ('instr_text', 'Respond as quickly and accurately as possible on both tasks.'), ('cont_text', 'Press SPACE to begin the final block.')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="DPT_instr3.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="B3_instr" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="instr"/>
+    <LoopTerminator name="B3_instr"/>
+    <LoopInitiator loopType="TrialHandler" name="B3_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('index', 0), ('Stim', 'Saw'), ('SoundFile', 'Saw.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 1), ('Stim', 'Axe'), ('SoundFile', 'Axe.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 2), ('Stim', 'Hatchet'), ('SoundFile', 'Hatchet.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 3), ('Stim', 'Scissors'), ('SoundFile', 'Scissors.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 4), ('Stim', 'Pliers'), ('SoundFile', 'Pliers.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 5), ('Stim', 'Sandpaper'), ('SoundFile', 'Sandpaper.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 6), ('Stim', 'Shears'), ('SoundFile', 'Shears.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 7), ('Stim', 'Shirt'), ('SoundFile', 'Shirt.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 8), ('Stim', 'Pants'), ('SoundFile', 'Pants.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 9), ('Stim', 'Jeans'), ('SoundFile', 'Jeans.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 10), ('Stim', 'Slacks'), ('SoundFile', 'Slacks.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 11), ('Stim', 'Suit'), ('SoundFile', 'Suit.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 12), ('Stim', 'Blouse'), ('SoundFile', 'Blouse.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 13), ('Stim', 'Skirt'), ('SoundFile', 'Skirt.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 14), ('Stim', 'Tie'), ('SoundFile', 'Tie.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 15), ('Stim', 'Parka'), ('SoundFile', 'Parka.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 16), ('Stim', 'Socks'), ('SoundFile', 'Socks.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 17), ('Stim', 'Shoes'), ('SoundFile', 'Shoes.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 18), ('Stim', 'Sandals'), ('SoundFile', 'Sandals.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 19), ('Stim', 'Boots'), ('SoundFile', 'Boots.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 20), ('Stim', 'Sneakers'), ('SoundFile', 'Sneakers.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 21), ('Stim', 'Backpack'), ('SoundFile', 'Backpack.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 22), ('Stim', 'Purse'), ('SoundFile', 'Purse.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 23), ('Stim', 'Suitcase'), ('SoundFile', 'Suitcase.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 24), ('Stim', 'Cereal'), ('SoundFile', 'Cereal.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 25), ('Stim', 'Telephone'), ('SoundFile', 'Telephone.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 26), ('Stim', 'Television'), ('SoundFile', 'Television.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 27), ('Stim', 'Speaker'), ('SoundFile', 'Speaker.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 28), ('Stim', 'Stereo'), ('SoundFile', 'Stereo.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 29), ('Stim', 'Computer'), ('SoundFile', 'Computer.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 30), ('Stim', 'Laptop'), ('SoundFile', 'Laptop.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 31), ('Stim', 'Book'), ('SoundFile', 'Book.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 32), ('Stim', 'Magazine'), ('SoundFile', 'Magazine.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')]), OrderedDict([('index', 33), ('Stim', 'Basil'), ('SoundFile', 'Basil.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 34), ('Stim', 'Oregano'), ('SoundFile', 'Oregano.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 35), ('Stim', 'Bean'), ('SoundFile', 'Bean.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 36), ('Stim', 'Rice'), ('SoundFile', 'Rice.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 37), ('Stim', 'Tree'), ('SoundFile', 'Tree.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 38), ('Stim', 'Bush'), ('SoundFile', 'Bush.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 39), ('Stim', 'Lake'), ('SoundFile', 'Lake.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 40), ('Stim', 'Beach'), ('SoundFile', 'Beach.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 41), ('Stim', 'Shadow'), ('SoundFile', 'Shadow.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 42), ('Stim', 'Sun'), ('SoundFile', 'Sun.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 43), ('Stim', 'Moon'), ('SoundFile', 'Moon.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 44), ('Stim', 'Earth'), ('SoundFile', 'Earth.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 45), ('Stim', 'Star'), ('SoundFile', 'Star.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 46), ('Stim', 'Potato'), ('SoundFile', 'Potato.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 47), ('Stim', 'Kale'), ('SoundFile', 'Kale.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 48), ('Stim', 'Peas'), ('SoundFile', 'Peas.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 49), ('Stim', 'Aardvark'), ('SoundFile', 'Aardvark.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 50), ('Stim', 'Alligator'), ('SoundFile', 'Alligator.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 51), ('Stim', 'Bird'), ('SoundFile', 'Bird.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 52), ('Stim', 'Buffalo'), ('SoundFile', 'Buffalo.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 53), ('Stim', 'Camel'), ('SoundFile', 'Camel.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 54), ('Stim', 'Cat'), ('SoundFile', 'Cat.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 55), ('Stim', 'Dog'), ('SoundFile', 'Dog.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 56), ('Stim', 'Fox'), ('SoundFile', 'Fox.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 57), ('Stim', 'Moose'), ('SoundFile', 'Moose.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 58), ('Stim', 'Goose'), ('SoundFile', 'Goose.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')]), OrderedDict([('index', 59), ('Stim', 'Lion'), ('SoundFile', 'Lion.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="DPT_B3.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="B3_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="B3_trials"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>

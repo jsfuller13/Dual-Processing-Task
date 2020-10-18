@@ -1,0 +1,113 @@
+8.4277 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [2880, 1800]. Using actual size
+9.5067 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000232D94476D8>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000232E6563400>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.5067 	EXP 	window1: recordFrameIntervals = False
+9.6723 	EXP 	window1: recordFrameIntervals = True
+9.8560 	EXP 	window1: recordFrameIntervals = False
+10.1409 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.1445 	EXP 	Created next_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='next_text', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.1844 	EXP 	Set  sound=C
+11.1900 	EXP 	Set  sound=A
+11.1901 	EXP 	Sound  set volume 1.000
+11.2185 	EXP 	Created stim_resp_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stim_resp_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Respond as quickly as possible.', units='height', win=Window(...), wrapWidth=1)
+11.2303 	EXP 	Created B1_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='B1_prompt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Respond as quickly as possible.', units='height', win=Window(...), wrapWidth=1)
+12.2172 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.2243 	EXP 	Created next_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='next_text', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.2409 	EXP 	Created B2_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='B2_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Respond as quickly as possible.', units='height', win=Window(...), wrapWidth=1)
+12.2435 	EXP 	Set  sound=A
+12.2436 	EXP 	Sound  set volume 1.000
+12.2481 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.2524 	EXP 	Created next_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='next_text', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.2551 	EXP 	Set  sound=A
+12.2551 	EXP 	Sound  set volume 1.000
+12.2685 	EXP 	Created stim_resp_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stim_resp_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Respond as quickly as possible.', units='height', win=Window(...), wrapWidth=1)
+12.2778 	EXP 	Created B3_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='B3_prompt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Respond as quickly as possible.', units='height', win=Window(...), wrapWidth=1)
+12.3139 	EXP 	Created thx_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thx_txt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.3428 	EXP 	Imported DPT_Blocks.xlsx as conditions, 2 conditions, 3 params
+12.3431 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+12.3433 	EXP 	New trial (rep=0, index=0): OrderedDict([('block', '1_Practice'), ('instr_file', 'DPT_prac_instr.xlsx'), ('trial_file', 'DPT_prac.xlsx')])
+12.3603 	EXP 	Imported DPT_prac_instr.xlsx as conditions, 3 conditions, 3 params
+12.3605 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+12.3607 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('instr_text', 'In this section, you will perform two tasks. \n\nFirst individually, then at the same time. '), ('cont_text', 'Press SPACE for more instructions.')])
+12.4868 	EXP 	instructions_text: text = 'In this section, you will perform two tasks. \n\nFirst individually, then at the same time. '
+12.4868 	EXP 	next_text: text = 'Press SPACE for more instructions.'
+12.4868 	EXP 	instructions_text: autoDraw = True
+12.4868 	EXP 	next_text: autoDraw = True
+35.2927 	EXP 	New trial (rep=0, index=1): OrderedDict([('index', 1), ('instr_text', 'In task one, you will hear some items. \n\nDecide if each item is manmade.\n\nIf the item is manmade, say Yes.\n\nIf the item is NOT manmade, say No.'), ('cont_text', 'Press SPACE for more instructions.')])
+35.4072 	DATA 	Keypress: space
+35.4213 	EXP 	instructions_text: autoDraw = False
+35.4213 	EXP 	next_text: autoDraw = False
+35.4213 	EXP 	instructions_text: text = 'In task one, you will hear some items. \n\nDecide if each item is manmade.\n\nIf the item is manmade, say Yes.\n\nIf the item is NOT manmade, say No.'
+35.4213 	EXP 	next_text: text = 'Press SPACE for more instructions.'
+35.4213 	EXP 	instructions_text: autoDraw = True
+35.4213 	EXP 	next_text: autoDraw = True
+45.9618 	DATA 	Keypress: space
+45.9761 	EXP 	New trial (rep=0, index=2): OrderedDict([('index', 2), ('instr_text', 'Now you will complete a few practice items.'), ('cont_text', 'Press SPACE to begin practice.')])
+46.0713 	EXP 	instructions_text: autoDraw = False
+46.0713 	EXP 	next_text: autoDraw = False
+46.0713 	EXP 	instructions_text: text = 'Now you will complete a few practice items.'
+46.0713 	EXP 	next_text: text = 'Press SPACE to begin practice.'
+46.0713 	EXP 	instructions_text: autoDraw = True
+46.0713 	EXP 	next_text: autoDraw = True
+48.8778 	DATA 	Keypress: space
+48.9338 	EXP 	Imported DPT_prac.xlsx as conditions, 6 conditions, 6 params
+48.9346 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+48.9355 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 3), ('Block', 'Block_1pr'), ('Stim', 'Fox'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Fox.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')])
+48.9623 	EXP 	Set  sound=C:\Users\Jordan\Documents\Experiment Building\PsychoPy Audio Files\Fox.wav
+48.9880 	EXP 	instructions_text: autoDraw = False
+48.9880 	EXP 	next_text: autoDraw = False
+48.9880 	EXP 	stim_resp_text: autoDraw = True
+49.4564 	EXP 	Sound  started
+50.4049 	EXP 	Sound  stopped
+50.4379 	EXP 	stim_resp_text: autoDraw = False
+50.4379 	EXP 	B1_prompt: autoDraw = True
+51.9425 	EXP 	New trial (rep=0, index=1): OrderedDict([('index', 4), ('Block', 'Block_1pr'), ('Stim', 'Moose'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Moose.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')])
+51.9604 	EXP 	Set  sound=C:\Users\Jordan\Documents\Experiment Building\PsychoPy Audio Files\Moose.wav
+51.9712 	EXP 	B1_prompt: autoDraw = False
+51.9712 	EXP 	stim_resp_text: autoDraw = True
+52.4728 	EXP 	Sound  started
+53.4049 	EXP 	Sound  stopped
+53.4212 	EXP 	stim_resp_text: autoDraw = False
+53.4212 	EXP 	B1_prompt: autoDraw = True
+54.9408 	EXP 	New trial (rep=0, index=2): OrderedDict([('index', 0), ('Block', 'Block_1pr'), ('Stim', 'Laptop'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Laptop.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')])
+54.9589 	EXP 	Set  sound=C:\Users\Jordan\Documents\Experiment Building\PsychoPy Audio Files\Laptop.wav
+54.9711 	EXP 	B1_prompt: autoDraw = False
+54.9711 	EXP 	stim_resp_text: autoDraw = True
+55.4727 	EXP 	Sound  started
+56.4047 	EXP 	Sound  stopped
+56.4211 	EXP 	stim_resp_text: autoDraw = False
+56.4211 	EXP 	B1_prompt: autoDraw = True
+57.9317 	EXP 	New trial (rep=0, index=3): OrderedDict([('index', 1), ('Block', 'Block_1pr'), ('Stim', 'Book'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Book.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')])
+57.9577 	EXP 	Set  sound=C:\Users\Jordan\Documents\Experiment Building\PsychoPy Audio Files\Book.wav
+57.9712 	EXP 	B1_prompt: autoDraw = False
+57.9712 	EXP 	stim_resp_text: autoDraw = True
+58.4559 	EXP 	Sound  started
+59.4048 	EXP 	Sound  stopped
+59.4211 	EXP 	stim_resp_text: autoDraw = False
+59.4211 	EXP 	B1_prompt: autoDraw = True
+60.9269 	EXP 	New trial (rep=0, index=4): OrderedDict([('index', 2), ('Block', 'Block_1pr'), ('Stim', 'Magazine'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Magazine.wav'), ('Condition', 'Manmade'), ('Correct', 'Yes')])
+60.9556 	EXP 	Set  sound=C:\Users\Jordan\Documents\Experiment Building\PsychoPy Audio Files\Magazine.wav
+60.9711 	EXP 	B1_prompt: autoDraw = False
+60.9711 	EXP 	stim_resp_text: autoDraw = True
+61.4560 	EXP 	Sound  started
+62.4045 	EXP 	Sound  stopped
+62.4211 	EXP 	stim_resp_text: autoDraw = False
+62.4211 	EXP 	B1_prompt: autoDraw = True
+63.9392 	EXP 	New trial (rep=0, index=5): OrderedDict([('index', 5), ('Block', 'Block_1pr'), ('Stim', 'Goose'), ('SoundFile', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\PsychoPy Audio Files\\Goose.wav'), ('Condition', 'Not Manmade'), ('Correct', 'No')])
+63.9559 	EXP 	Set  sound=C:\Users\Jordan\Documents\Experiment Building\PsychoPy Audio Files\Goose.wav
+63.9710 	EXP 	B1_prompt: autoDraw = False
+63.9710 	EXP 	stim_resp_text: autoDraw = True
+64.4725 	EXP 	Sound  started
+65.4046 	EXP 	Sound  stopped
+65.4209 	EXP 	stim_resp_text: autoDraw = False
+65.4209 	EXP 	B1_prompt: autoDraw = True
+66.9384 	EXP 	New trial (rep=0, index=1): OrderedDict([('block', 1), ('instr_file', 'DPT_instr1.xlsx'), ('trial_file', 'DPT_B1.xlsx')])
+66.9660 	EXP 	Imported DPT_instr1.xlsx as conditions, 1 conditions, 3 params
+66.9665 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+66.9673 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('instr_text', 'Good work!\n\nNow you will complete a few more. \n\nRespond as quickly as possible.'), ('cont_text', 'Press SPACE to begin the first block.')])
+67.0708 	EXP 	B1_prompt: autoDraw = False
+67.0708 	EXP 	instructions_text: text = 'Good work!\n\nNow you will complete a few more. \n\nRespond as quickly as possible.'
+67.0708 	EXP 	next_text: text = 'Press SPACE to begin the first block.'
+67.0708 	EXP 	instructions_text: autoDraw = True
+67.0708 	EXP 	next_text: autoDraw = True
+155.4425 	DATA 	Keypress: escape
+155.6846 	EXP 	window1: mouseVisible = True
